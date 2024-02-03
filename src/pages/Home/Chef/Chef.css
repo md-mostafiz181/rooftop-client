@@ -1,0 +1,27 @@
+#chef-part{
+    padding: 130px 0px;
+}
+
+#chef-part .card-image {
+    height: 200px;
+}
+
+#chef-part .card-image img{
+    width: 100%;
+}
+
+#chef-part .btn-cart{
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #E8E8E8;
+    border-radius: 5px;
+    color: #BB8506;
+    font-weight: bold;
+    border-bottom: 4px solid #BB8506;
+    transition: .4s;
+}
+
+#chef-part .btn-cart:hover{
+    background-color: #1F2937;
+   
+}

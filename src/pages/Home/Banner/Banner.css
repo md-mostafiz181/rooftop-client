@@ -1,0 +1,16 @@
+#banner-part{
+    width: 100%;
+   
+}
+
+#banner-part .carousel-slider .dot{
+    background-color: white;
+}
+
+#banner-part .carousel-slider .selected{
+    background-color: blue;
+}
+
+#banner-part .carousel{
+   text-align: center;
+}

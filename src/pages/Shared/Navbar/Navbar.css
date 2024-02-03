@@ -1,0 +1,33 @@
+#navbar-part{
+    width: 100%;
+    background: rgba(21, 21, 21, 0.50);;
+}
+
+#navbar-part ul li a{
+    text-transform: uppercase;
+    transition: .4s;
+   
+}
+
+#navbar-part ul li a:hover{
+    color: #EEFF25;
+}
+
+#navbar-part ul li a:active{
+    background-color: transparent !important;
+}
+#navbar-part ul li a:focus{
+    background-color: transparent !important;
+    border: none;
+    
+}
+
+#navbar-part ul li a:focus-visible{
+    background-color: transparent !important;
+   
+    
+}
+
+#navbar-part ul li a:hover{
+    background-color: transparent !important;
+}

@@ -1,0 +1,13 @@
+#footer-part{
+    padding: 50px 0;
+    background-color: #111827;
+}
+
+#footer-part .icon-div{
+    width: 30%;
+    height: 50px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%); 
+    margin-top: 10px;
+}
