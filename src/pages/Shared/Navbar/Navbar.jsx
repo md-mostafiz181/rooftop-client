@@ -1,15 +1,16 @@
 import React from 'react';
 import "./Navbar.css"
 import Container from '../../../components/Container/Container';
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
 
     const navOptions = <>
-                        <li className='primaryFont font-bold focus:outline-none focus:ring-transparent'><a>Home</a></li>
-                        <li className='primaryFont font-bold focus:outline-none'><a>Contact Us</a></li>
-                        <li className='primaryFont font-bold focus:outline-none'><a>Dashboard</a></li>
-                        <li className='primaryFont font-bold focus:outline-none'><a>Our menu</a></li>
-                        <li className='primaryFont font-bold focus:outline-none'><a>Our shop</a></li>
+                        <li className='primaryFont font-bold focus:outline-none focus:ring-transparent'><Link to="">Home</Link></li>
+                        <li className='primaryFont font-bold focus:outline-none'><Link>Contact Us</Link></li>
+                        <li className='primaryFont font-bold focus:outline-none'><Link>Dashboard</Link></li>
+                        <li className='primaryFont font-bold focus:outline-none'><Link to="/menu">Our Menu</Link></li>
+                        <li className='primaryFont font-bold focus:outline-none'><Link>Our Shop</Link></li>
                     </>
     return (
         <div id='navbar-part' className='fixed z-10 text-white'>
