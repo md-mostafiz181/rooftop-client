@@ -12,12 +12,7 @@ const Menu = () => {
       </Helmet>
       <Cover img={menuImg} title={"Our menu"}></Cover>
       <PopularItem></PopularItem>
-      <Cover img={menuImg} title={"Our menu"}></Cover>
-      <PopularItem></PopularItem>
-      <Cover img={menuImg} title={"Our menu"}></Cover>
-      <PopularItem></PopularItem>
-      <Cover img={menuImg} title={"Our menu"}></Cover>
-      <PopularItem></PopularItem>
+     
     </div>
   );
 };
